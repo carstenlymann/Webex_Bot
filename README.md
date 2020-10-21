@@ -1,16 +1,15 @@
 # Webex_Bot
 
-```sh
+#### Chuck Norris Jokes
 Chuck_Webex.py will use API to find a joke from The Internet Chuck Norris Database -> http://api.icndb.com/jokes/random
 It will then post it to your chosen webex teams room, and add a Chuck Norris gif.
 Run it with: python3 Chuck_Webex.py
-```
 
-```sh
+#### Dad Jokes
 DadJoke_Webex.py will use API to find a joke from icanhazdadjoke -> https://icanhazdadjoke.com/
 It will then post it to your chosen webex teams room, and add a gif.
 Run it with: python3 DadJoke_Webex.py
-```
+
 
 ### Installation
 
