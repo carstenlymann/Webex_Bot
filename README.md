@@ -35,5 +35,9 @@ In postman:
 
 ### Misc
 If you got a good idea to implement here, then let me know
+
 If you find errors, please let me know
+
 If you see a piece of code, that could be better, then please tell me. Im still learning
+
+https://twitter.com/carsten_lymann
