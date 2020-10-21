@@ -31,7 +31,9 @@ In postman:
 ```
 
 ### TODO
-1. Find special characters and format text properly.
+Find special characters and format text properly.
+
+Add skype/Microsoft Teams and email support as well.
 
 ### Misc
 If you got a good idea to implement here, then let me know
