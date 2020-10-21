@@ -1,7 +1,7 @@
 import requests
 
 ##########################
-### Get the Dad Joke ###
+###  Get the Dad Joke  ###
 ##########################
 
 url = "https://icanhazdadjoke.com/"
