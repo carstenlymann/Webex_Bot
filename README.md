@@ -1,5 +1,10 @@
 # Webex_Bot
 
+Chuck_Webex.py will use API to find a joke from The Internet Chuck Norris Database -> http://api.icndb.com/jokes/random
+It will then post it to your chosen webex teams room, and add a Chuck Norris gif.
+
+Run it with: python3 Chuck_Webex.py
+
 ### Installation
 
 1. Clone the repo
@@ -23,5 +28,18 @@ In postman:
 	3. Send
 	4. Click the Body tab and find your Room id and title
 	5. Copy those to the script
+```
 
+### TODO
+Find special characters and format text properly.
 
+Add skype/Microsoft Teams and email support as well.
+
+### Misc
+If you got a good idea to implement here, then let me know
+
+If you find errors, please let me know
+
+If you see a piece of code, that could be better, then please tell me. Im still learning
+
+https://twitter.com/carsten_lymann
