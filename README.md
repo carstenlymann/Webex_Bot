@@ -38,6 +38,14 @@ In postman:
 	3. Send
 	4. Click the Body tab and find your Room id and title
 	5. Copy those to the script
+
+You can also use the developer.webex.com to find your room id.
+Go to API Reference and click rooms.
+You now get a list of methods regarding rooms.
+Click the method GET with description List Rooms.
+It has automaticly selected your bearer token, so you can just click run.
+And in the response below you will have list of your rooms with title and id.
+
 ```
 
 ### TODO
