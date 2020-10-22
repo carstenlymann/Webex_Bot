@@ -27,11 +27,12 @@ git clone https://github.com/carstenlymann/Webex_Bot.git
 pip3 install -r requirements.txt
 ```
 
-3. Find your Webex Bearer Token and the Webex Room id where you want to receive these messages
+3. Find your Webex Bearer Token and the Webex Room id where you want to receive these messages.
+There is at least 3 ways that can be done
 ```sh
 Bearer Token can be found here: https://developer.webex.com/docs/api/getting-started
 
-I used Postman to find my room id
+Use Postman.
 In postman:
 	1. Get request to: https://webexapis.com/v1/rooms
 	2. Under Authorization enter your Bearer Token
@@ -39,6 +40,7 @@ In postman:
 	4. Click the Body tab and find your Room id and title
 	5. Copy those to the script
 
+Use the Webex Developer site.
 You can also use the developer.webex.com to find your room id.
 Go to API Reference and click rooms.
 You now get a list of methods regarding rooms.
@@ -46,6 +48,14 @@ Click the method GET with description List Rooms.
 It has automaticly selected your bearer token, so you can just click run.
 And in the response below you will have list of your rooms with title and id.
 
+In Linux do a curl
+1. sudo apt install curl <- if its not installed
+2. curl -X GET -H "Autorization: Bearer ******" "https://webexapis.com/v1/rooms"
+	Where ****** Is the bearer token you can find on developer.webex.com site
+	The link for the request is in API Reference rooms.
+	That will give you an output of all your rooms as well.. But its not easy to read..
+3. curl -X GET -H "Autorization: Bearer ******" "https://webexapis.com/v1/rooms" | json_pp
+	Add | json_pp to the curl, and you get a nice readable output
 ```
 
 ### TODO
